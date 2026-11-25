@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Code Swipe",
+    "slug": "code-swipe",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1022",
+    "splash": {
+      "backgroundColor": "#0E1022"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
