@@ -10,14 +10,12 @@ Requires Node 20+.
 
 ```bash
 npm install
-npm run setup      # installs the Expo packages at the versions that match the SDK
-npx expo install --fix
 npm start
 ```
 
 Then press `a` for an Android emulator or `i` for the iOS simulator, or scan the QR code.
 
-> Expo Go for SDK 57 may not be in the stores yet. If your phone's Expo Go refuses the project, use an emulator or simulator, `eas go` on iOS, or a development build (`npx expo run:android` / `npx expo run:ios`).
+The project uses Expo SDK 58 (React Native 0.88, React 19.3), so it opens in the current Expo Go. If you upgrade the SDK later, run `npx expo install expo@^<version> --fix` then `npx expo-doctor@latest`.
 
 ## Project structure
 
