@@ -18,7 +18,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0E1022"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "net.learntime.codeswipe"
     },
     "plugins": [
       "expo-font",
@@ -26,6 +27,11 @@
     ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65af3834-0b62-4afc-992f-c66d22761c6e"
+      }
     }
   }
 }
