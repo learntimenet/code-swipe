@@ -4,6 +4,7 @@
     "slug": "code-swipe",
     "version": "0.1.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0E1022",
     "splash": {
@@ -13,11 +14,18 @@
       "supportsTablet": false
     },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E1022"
+      },
       "edgeToEdgeEnabled": true
     },
     "plugins": [
       "expo-font",
       "expo-status-bar"
-    ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
